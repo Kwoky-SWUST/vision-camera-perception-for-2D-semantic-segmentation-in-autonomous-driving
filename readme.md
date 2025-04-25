@@ -67,26 +67,3 @@ This script likely contains functions for:
 
 Inspect the script for specific function signatures and usage examples.
 
-## Contribution Guidelines
-
-Contributions are welcome! To contribute:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Implement your changes.
-4.  Test your changes thoroughly.
-5.  Submit a pull request.
-
-Please ensure your code adheres to the project's coding style and includes appropriate documentation.
-
-## Troubleshooting
-
-*   **CUDA Errors:** If you encounter CUDA-related errors, ensure that you have the correct CUDA drivers and PyTorch version installed for your GPU.
-*   **Missing Dependencies:** Double-check that you have installed all the required Python packages using `pip install -r requirements.txt`.  If `requirements.txt` is missing, create it based on the imports in the python files.
-*   **Model Loading Errors:** Verify that the `semantic_segmentation_mlp.pth` file is present in the correct directory and that the path to the model is correctly specified in the `predictor.py` script.
-*   **Image Size Mismatch:** Ensure that the input images are of the expected size for the model.  Check the `predictor.py` script for any image resizing or cropping operations.
-
-## License
-
-License information is not provided.  Please contact the owner (Kwoky-SWUST) for licensing details.
-```
